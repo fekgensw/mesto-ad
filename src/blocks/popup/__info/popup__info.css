@@ -1,0 +1,16 @@
+.popup__info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 20px 0 0;
+    font-size: 14px;
+    line-height: 1.35;
+}
+
+
+@media screen and (max-width: 568px) {
+    .popup__info {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
